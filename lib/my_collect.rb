@@ -1,6 +1,6 @@
 
 
-def my_collect(empty)
+def my_collect(array)
   i = 0
   students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
   languages = ['ruby', 'javascript', 'python', 'objective-c']
