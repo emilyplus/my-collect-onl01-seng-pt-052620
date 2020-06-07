@@ -1,6 +1,7 @@
-empty = []
+
 
 def my_collect(empty)
+  i = 0
   students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
   languages = ['ruby', 'javascript', 'python', 'objective-c']
   array = []
