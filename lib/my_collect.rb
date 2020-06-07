@@ -1,9 +1,14 @@
-def my_collect(students)
+empty = []
+
+def my_collect(empty)
   students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-  empty = []
+  languages = ['ruby', 'javascript', 'python', 'objective-c']
+  array = []
   counter = 0
-  students.split(' ').first do |x|
-    x
   end
-  empty.push(students)
+  my_collect(empty) do |x|
+    x {counter += 1}
 end
+
+my_collect(langauges) do |language|
+    language.upcase
