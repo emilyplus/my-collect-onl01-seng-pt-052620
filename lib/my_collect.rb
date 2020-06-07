@@ -3,10 +3,8 @@
 def my_collect(array)
   i = 0
   collection = []
-  while 
-  students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-  languages = ['ruby', 'javascript', 'python', 'objective-c']
-  array = []
+  while i < array.length
+  
   counter = 0
   end
   my_collect(empty) do |x|
